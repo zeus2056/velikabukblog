@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        .card-parag{
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1px;
+            color: #2C3333;
+        }
+        .card-parag::first-letter{
+            font-size: 35px;
+            color: brown;
+        }
+        .card-parag::first-line{
+            text-decoration: underline;
+        }
+        .card-title{
+            color: #0E8388;
+        }
+        .card-header{
+            background: url('düz.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100vw;
+            height: 20vh;
+        }
+        .card-main
+        {
+            margin-top: 30px;
+        }
+        .card-table{
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .table-title{
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .card-form{
+            
+        }
+        .card-register{
+            text-align: center;
+            height: 30vh;
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 30vw;
+            margin: 30px auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="card-header">
+        <h1 class="card-title" align="center">
+            Lorem ipsum dolor sit.
+        </h1>
+        <hr color="green">
+       <p class="card-parag">
+         <b>Lorem</b>, ipsum dolor sit amet consectetur adipisicing elit. Quas modi, nobis facilis iusto amet voluptatem nostrum quaerat in cumque perferendis, odit vero cum eius quos obcaecati error qui labore eaque?
+         <mark> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, dolores quae. Cumque, assumenda aperiam. Voluptatem iure nulla nihil repellat ipsam facere similique, <ins>doloremque ratione</ins> eaque eum amet incidunt expedita? Quibusdam!</mark>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Nobis qui cupiditate delectus doloremque doloribus quo eos molestias libero sunt saepe</strong>, tempora magnam eius ipsa. Quisquam assumenda suscipit <i>necessitatibus temporibus atque!</i>
+       </p>
+    </header>
+    <main class="card-main">
+        <table class="card-table" style="margin: auto;padding: 8px;">
+           <thead>
+            <tr class="table-line">
+                <th class="table-title">
+                    Title 1
+                </th>
+                <th class="table-title">
+                    Title 2
+                </th>
+                <th class="table-title">
+                    Title 3
+                </th>
+            </tr>
+           </thead>
+           <tbody>
+                <tr class="table-line">
+                    <td class="table-parag" style="padding: 15px;">Lorem, ipsum.</td>
+                    <td class="table-parag">Lorem, ipsum dolor.</td>
+                    <td class="table-parag">Lorem ipsum dolor sit.</td>
+                </tr>
+           </tbody>
+        </table>
+    </main>
+    <section class="card-register">
+        <form action="#" class="card-form">
+            <input type="text" placeholder="UserName : " class="card-txt">
+        </form>
+    </section>
+    
+</body>
+</html>
